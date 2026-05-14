@@ -1,0 +1,8 @@
+#!name=Ecosia Search Redirect
+#!desc=Safari 默认搜索引擎为 Ecosia 时，dd 关键字跳转 DuckDuckGo，其余搜索跳转 Google
+#!author=Codex
+[Rewrite]
+^https:\/\/www\.ecosia\.org\/search\?q=dd\+([^&]+).+ 307 https://duckduckgo.com/?q=$1
+^https:\/\/www\.ecosia\.org\/search\?q=([^&]+).+ 307 https://www.google.com/search?q=$1
+[MITM]
+hostname = *.ecosia.org
