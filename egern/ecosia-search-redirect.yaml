@@ -1,0 +1,15 @@
+name: "Ecosia Search Redirect"
+description: "Safari 默认搜索引擎为 Ecosia 时，dd 关键字跳转 DuckDuckGo，其余搜索跳转 Google"
+author: "CHEN1016"
+
+url_rewrites:
+  - match: "^https:\\/\\/www\\.ecosia\\.org\\/search\\?q=dd\\+([^&]+)"
+    location: "https://duckduckgo.com/?q=$1"
+    status_code: 307
+  - match: "^https:\\/\\/www\\.ecosia\\.org\\/search\\?q=([^&]+)"
+    location: "https://www.google.com/search?q=$1"
+    status_code: 307
+
+mitm:
+  hostnames:
+    - "*.ecosia.org"
