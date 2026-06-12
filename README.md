@@ -19,7 +19,7 @@ Safari 默认搜索引擎设置为 Ecosia 时的搜索重定向脚本。
 | 工具 | 安装链接 |
 |------|----------|
 | Quantumult X | [点击安装](quantumult-x:///update-configuration?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FCHEN1016%2Fyannis_scripts%2Fmain%2FQuantumultX%2Fecosia-search-redirect.conf%2C%20tag%3DEcosia%20Search%20Redirect%22%5D%7D) |
-| Egern | [点击安装](egern:/modules/new?name=Ecosia%20Search%20Redirect&url=https%3A%2F%2Fraw.githubusercontent.com%2FCHEN1016%2Fyannis_scripts%2Fmain%2Fegern%2Fecosia-search-redirect.yaml) |
+| Egern | [点击安装](https://egernapp.com/modules/new?url=https://raw.githubusercontent.com/CHEN1016/yannis_scripts/refs/heads/main/egern/ecosia-search-redirect.yaml&name=ecosia-search-redirect) |
 | Loon | [点击安装](https://www.nsloon.com/openloon/import?plugin=https%3A%2F%2Fraw.githubusercontent.com%2FCHEN1016%2Fyannis_scripts%2Frefs%2Fheads%2Fmain%2Floon%2Fecosia-search-redirect.plugin) |
 
 ### 手动安装
